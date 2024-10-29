@@ -28,4 +28,4 @@ def show_image(image,mask,pred_image = None):
         ax3.set_title('MODEL OUTPUT')
         ax3.imshow(pred_image.permute(1,2,0).squeeze(),cmap = 'gray')
         
-        
+
